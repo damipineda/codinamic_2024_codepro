@@ -1,0 +1,86 @@
+[
+  {
+    "pregunta": "¿Cuál es la capital de Paraguay?",
+    
+    "respuestas": ["Asunción", "Ciudad del Este", "Encarnación"],
+    "respuesta_correcta": "Asunción"
+  },
+  {
+    "pregunta": "¿Que bebedida tradicional parguaya se prepara con yerba mate?",
+    
+    "respuestas": ["Jugo", "Terere", "Sopa"],
+    "respuesta_correcta": "Terere"
+  },
+  {
+    "pregunta": "¿Como se llama este lugar?",
+    "imagen": "static/img/Ruina Jesuiticas.jpg",
+    "respuestas": ["Ruinas Paulina", "Ruinas San Juan", "Ruinas Jesuiticas"],
+    "respuesta_correcta": "Ruinas Jesuiticas"
+  },
+  {
+    "pregunta": "¿Estos actores estuvieron en la pelicua?",
+    "imagen": "static/img/7_cajas_actores.jpg",
+    "respuestas": ["Leal 2", "La Chacarita", "7 Cajas"],
+    "respuesta_correcta": "7 Cajas"
+  },
+  {
+    "pregunta": "¿Cual es la capital del terere?",
+    
+    "respuestas": ["Luque", "San Lorenzo", "Fernando de la Mora"],
+    "respuesta_correcta": "Fernando de la Mora"
+  },
+  {
+    "pregunta": "¿Cual es el nombre completo de Mariscal Francisco?",
+
+    "respuestas": ["Francisco Solano Lopez Perez", "Francisco Solano Lopez Suarez", "Francisco Solano Lopez Carrillo"],
+    "respuesta_correcta": "Francisco Solano Lopez Carrillo"
+  },
+  {
+    "pregunta": "¿Cuál la fiesta patria del Paraguay?",
+
+    "respuestas": ["15 de Agosto", "12 de Junio", "14 y 15 de Mayo"],
+    "respuesta_correcta": "14 y 15 de Mayo"
+  },
+  {
+    "pregunta": "¿Cual es la principal actividad economica de Paraguay?",
+  
+    "respuestas": ["Petroleo", "Agricultura", "Ganaderia"],
+    "respuesta_correcta": "Agricultura"
+  },
+  {
+    "pregunta": "¿Como se llama la danza tradicional que representa la casa de un pajaro?",
+   
+    "respuestas": ["Pitogue", "Mainumby", "Pajaro Campana"],
+    "respuesta_correcta": "Pajaro Campana"
+  },
+  {
+    "pregunta": "¿Intrumento musical emblematico de la musica paraguay?",
+ 
+    "respuestas": ["Guitarra", "El arpa Paraguaya", "Piano"],
+    "respuesta_correcta": "El arpa Paraguaya"
+  },
+  {
+    "pregunta": "¿El nombre de esta guitarrista es: ?",
+    "imagen": "static/img/Berta_Rojas.jpg",
+    "respuestas": ["Maria Ines", "Berta Ramirez", "Berta Rojas"],
+    "respuesta_correcta": "Berta Rojas"
+  },
+  {
+    "pregunta": "¿Esta comida es conocida como ?",
+    "imagen": "static/img/vori.png.webp",
+    "respuestas": ["Caldo ava", "Bori Bori", "Sopa Parguaya"],
+    "respuesta_correcta": "Bori Bori"
+  },
+  {
+    "pregunta": "¿Esta comida es conocida como ?",
+    "imagen": "static/img/vori.png.webp",
+    "respuestas": ["Caldo ava", "Bori Bori", "Sopa Parguaya"],
+    "respuesta_correcta": "Bori Bori"
+  },
+  {
+    "pregunta": "¿Esta comida es conocida como ?",
+    "imagen": "static/img/vori.png.webp",
+    "respuestas": ["Caldo ava", "Bori Bori", "Sopa Parguaya"],
+    "respuesta_correcta": "Bori Bori"
+  }
+]

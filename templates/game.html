@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="fondo2"></div>
+    <div class="central-container">
+        <h1>Pregunta:</h1>
+        <p id="pregunta"></p>
+        <div class="imagenes">
+            <div id="imagen-pregunta" class="imagenes"></div>
+
+        </div>
+        <div id="opciones"></div>
+        <p>Respuestas acertadas: <span id="puntaje">0</span></p>
+        <p>Tiempo restante: <span id="cronometro">10</span> segundos</p>
+    </div>
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+
+</html>

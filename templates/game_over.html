@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>JUEGO FINALIZADO</title>
+</head>
+<body>
+    <div class="fondo"></div>
+    <div id="game-over-modal" class="modal">
+        <div class="modal-content" >
+            <!--<span class="close">&times;</span>-->
+            <h2>¡Juego terminado!</h2>
+            <p>Tu puntaje final: <span id="final-score"></span></p>
+           <!-- <a href="/game_over" class="button">Ver tabla de posiciones</a>-->
+           <button onclick="window.location.href = '/'" id="boton-inicio">Volver a inicio</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>

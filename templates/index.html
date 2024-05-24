@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Game</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="fondo"></div>
+    <div class="central-container">
+      <h1>Bienvenido al Juego de Preguntas</h1>
+
+      <form id="seleccion-form">
+        <!--Seleccionar preguntas-->
+        <div class="seleccion"> 
+            <label>
+              <input
+                type="radio"
+                name="tipo_preguntas"
+                value="con_imagenes"
+                required
+              />
+              Adivina la imagen </label
+            ><br />
+            <label>
+              <input
+                type="radio"
+                name="tipo_preguntas"
+                value="sin_imagenes"
+                required
+              />
+              Responde preguntas</label
+            ><br />
+        </div>
+        <button type="submit" id="boton-inicio">Iniciar Juego</button>
+    </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("seleccion-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const tipoPreguntas = document.querySelector(
+            'input[name="tipo_preguntas"]:checked'
+          ).value;
+          fetch("/seleccionar_tipo", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ tipo_preguntas: tipoPreguntas }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.status === "success") {
+                window.location.href = "/iniciar_juego";
+              }
+            });
+        });
+    </script>
+  </body>
+</html>
